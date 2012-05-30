@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.mbeddr.ext.exceptionhandling" uuid="7bb2fde4-1dd3-4cc6-b8d6-6755853dd5fd" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="com.mbeddr.ext.exceptionhandling" uuid="7bb2fde4-1dd3-4cc6-b8d6-6755853dd5fd" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="com.mbeddr.ext.exceptionhandling" />
+    <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
     <generator name="main" generatorUID="com.mbeddr.ext.exceptionhandling#3809480042719653955" uuid="a62a7922-4e1d-4ca5-a129-ea09d6451f42">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="com.mbeddr.ext.exceptionhandling.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" />
       </models>
       <external-templates>
-        <generator generatorUID="53c31cc6-9e98-4153-905a-a7b5c490ea53(com.mbeddr.core.modules#1758019824472891829)" />
         <generator generatorUID="be090156-a678-454c-bd8f-89ebd4a0e6af(com.mbeddr.core.modules.gen#1758019824472882132)" />
+        <generator generatorUID="53c31cc6-9e98-4153-905a-a7b5c490ea53(com.mbeddr.core.modules#1758019824472891829)" />
       </external-templates>
       <dependencies>
         <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
@@ -56,14 +56,21 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>fd614f42-6c14-432b-8cad-9da2b5a2b43e(com.mbeddr.mpsutil.bldoc)</usedLanguage>
+    <usedLanguage>17e4a96f-f2a0-4ccc-badd-b73f1fe7a7a6(com.mbeddr.mpsutil.graph)</usedLanguage>
+    <usedLanguage>5550bbcf-81f8-460f-b7db-a7a6efc1e286(com.mbeddr.mpsutil.langdepdiag)</usedLanguage>
+    <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
+    <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
+    <usedLanguage>fe9d76d7-5809-45c9-ae28-a40915b4d6ff(jetbrains.mps.lang.checkedName)</usedLanguage>
+    <usedLanguage>289fcc83-6543-41e8-a5ca-768235715ce4(jetbrains.mps.lang.generator.generationParameters)</usedLanguage>
+    <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
+    <extendedLanguage>a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</extendedLanguage>
     <extendedLanguage>61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</extendedLanguage>
     <extendedLanguage>6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</extendedLanguage>
-    <extendedLanguage>a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)</extendedLanguage>
   </extendedLanguages>
 </language>
 

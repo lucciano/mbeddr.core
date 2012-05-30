@@ -13,16 +13,17 @@
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="1" implicit="yes" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="0" implicit="yes" />
   <import index="ym4j" modelUID="r:cf0df747-2506-460f-a33d-eb236a605ee8(com.mbeddr.ext.physicalunits.structure)" version="10" implicit="yes" />
-  <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="1" implicit="yes" />
-  <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="4" implicit="yes" />
   <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
+  <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="4" implicit="yes" />
+  <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="1" implicit="yes" />
+  <import index="4qyp" modelUID="r:a4892cee-0ec7-4d67-a50b-f3a173318ea9(com.mbeddr.ext.boundedNumbers.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="tp5g.NodesTestCase" typeId="tp5g.1216913645126" id="4497436839299134881">
       <property name="name" nameId="tpck.1169194664001" value="testCoords" />
     </node>
     <node type="mj1l.TypeSizeConfiguration" typeId="mj1l.3335993110369795380" id="4497436839299134884" />
     <node type="ym4j.UnitContainer" typeId="ym4j.3801772042669047872" id="4497436839299135003" />
-    <node type="51wr.BuildConfiguration" typeId="51wr.7717755763392524104" id="1798411515023801994" />
+    <node type="51wr.BuildConfiguration" typeId="51wr.7717755763392524104" id="1798411515023801831" />
   </roots>
   <root id="4497436839299134881">
     <node role="nodesToCheck" roleId="tp5g.1217501822150" type="tp5g.TestNode" typeId="tp5g.1216989428737" id="4497436839299134882">
@@ -265,14 +266,15 @@
       <node role="to" roleId="ym4j.2078797996880475938" type="sfuj.GlobalCoords" typeId="sfuj.4497436839299102624" id="4497436839299135027" />
     </node>
   </root>
-  <root id="1798411515023801994">
-    <node role="target" roleId="51wr.5323740605968447026" type="51wr.DesktopPlatform" typeId="51wr.5323740605968447022" id="1798411515023801995">
+  <root id="1798411515023801831">
+    <node role="target" roleId="51wr.5323740605968447026" type="51wr.DesktopPlatform" typeId="51wr.5323740605968447022" id="1798411515023801832">
       <property name="compiler" nameId="51wr.5323740605968447024" value="gcc" />
       <property name="compilerOptions" nameId="51wr.5323740605968447025" value="-std=c99" />
       <property name="debugOptions" nameId="51wr.2736179788492003937" value="-g" />
     </node>
-    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="1798411515023801996">
-      <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="1798411515023801997" />
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="4qyp.BoundsCheckingConfiguration" typeId="4qyp.4618139321488878835" id="1798411515023801842" />
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="1798411515023801853">
+      <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="1798411515023801854" />
     </node>
   </root>
 </model>
