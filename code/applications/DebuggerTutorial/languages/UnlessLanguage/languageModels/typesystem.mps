@@ -2,8 +2,6 @@
 <model modelUID="r:065315f0-cb5f-4f35-88b8-5f7a5c669f86(UnlessLanguage.typesystem)">
   <persistence version="7" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="9e4ae83b-f14a-4186-b0a7-a63117b566ef(UnlessLanguage)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="x205" modelUID="r:2d6aecde-39cb-4000-849a-74f6863f9b4d(UnlessLanguage.structure)" version="-1" />
