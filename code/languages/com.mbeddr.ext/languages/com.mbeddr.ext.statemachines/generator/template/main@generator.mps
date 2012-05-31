@@ -2981,18 +2981,6 @@
           </node>
         </node>
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="2231107713271178333">
-        <property name="linkRole" nameId="tpck.1757699476691236116" value="source" />
-        <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="2231107713271178334">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2231107713271178335">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2231107713271178337">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2231107713271178338">
-                <property name="value" nameId="tpee.1070475926801" value="__start" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </root>
 </model>
