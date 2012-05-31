@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.mbeddr.cc.var.buildconfig" uuid="3e8a5813-64ae-4b14-9e62-3ced1ced6f42" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="com.mbeddr.cc.var.buildconfig" uuid="3e8a5813-64ae-4b14-9e62-3ced1ced6f42" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="com.mbeddr.cc.var.buildconfig" />
+    <modelRoot path="${language_descriptor}/languageModels" />
   </models>
   <accessoryModels />
   <generators>
     <generator name="main" generatorUID="com.mbeddr.cc.var.buildconfig#6617704999132074775" uuid="996a24a9-6231-48b3-bb70-d8c04cde5f96">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="com.mbeddr.cc.var.buildconfig.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" />
       </models>
       <external-templates>
         <generator generatorUID="be090156-a678-454c-bd8f-89ebd4a0e6af(com.mbeddr.core.modules.gen#1758019824472882132)" />
@@ -18,7 +18,7 @@
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_after">
           <greater-priority-mapping>
-            <generator generatorUID="996a24a9-6231-48b3-bb70-d8c04cde5f96(com.mbeddr.cc.fm.buildconfig#6617704999132074775)" />
+            <generator generatorUID="996a24a9-6231-48b3-bb70-d8c04cde5f96(com.mbeddr.cc.var.buildconfig#6617704999132074775)" />
             <external-mapping>
               <mapping-node modelUID="r:2f2bb760-61eb-497c-8faf-ef8cae7405e8(com.mbeddr.cc.var.buildconfig.generator.template.generator.template.generator.template.main@generator)" nodeID="6617704999132074776" />
             </external-mapping>
