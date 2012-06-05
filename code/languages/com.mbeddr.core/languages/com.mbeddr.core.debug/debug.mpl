@@ -38,19 +38,19 @@
     </stubModelEntry>
   </stubModelEntries>
   <runtimeStubModels>
-    <stubModelEntry path="${language_descriptor}/lib/mi/org.eclipse.osgi_3.7.1.R37x_v20110808-1106.jar">
+    <stubModelEntry path="${language_descriptor}/lib/mi/org.eclipse.equinox.common_3.6.0.v20110523.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${language_descriptor}/lib/mi/org.eclipse.equinox.common_3.6.0.v20110523.jar">
+    <stubModelEntry path="${language_descriptor}/lib/mi/org.hamcrest.core_1.1.0.v20090501071000.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${language_descriptor}/lib/mi/org.eclipse.osgi_3.7.1.R37x_v20110808-1106.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
     <stubModelEntry path="${language_descriptor}/lib/mi/cdt.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
     <stubModelEntry path="${language_descriptor}/lib/mi/org.eclipse.core.runtime_3.7.0.v20110110.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
-    <stubModelEntry path="${language_descriptor}/lib/mi/org.hamcrest.core_1.1.0.v20090501071000.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </runtimeStubModels>

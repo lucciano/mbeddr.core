@@ -96,9 +96,9 @@
         <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="3857533489766841575">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3857533489766841576">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3857533489766841577">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3857533489766841579">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f0u6.3857533489766210232" resolveInfo="areDocsVisible" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="f0u6.3857533489766210214" resolveInfo="DocumentationConfiguration" />
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7494307101896631161">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f0u6.7494307101896631145" resolveInfo="areDocsVisible" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="f0u6.7494307101896631127" resolveInfo="DocumentationConfiguration" />
               </node>
             </node>
           </node>
