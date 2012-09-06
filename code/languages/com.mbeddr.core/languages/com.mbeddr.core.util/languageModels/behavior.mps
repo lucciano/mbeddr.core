@@ -72,6 +72,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="with" />
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="k146.3073566081777391256" resolveInfo="WithMemberAssignment" />
     </node>
+    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8313084342506129253">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="flags" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="k146.8313084342506126840" resolveInfo="FlagMatch" />
+    </node>
   </roots>
   <root id="5686538669182294937">
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5686538669182294938">
@@ -1492,6 +1496,29 @@
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6702952168899885045">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
+      </node>
+    </node>
+  </root>
+  <root id="8313084342506129253">
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8313084342506129254">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8313084342506129255">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8313084342506129256">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8313084342506129306">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8313084342506129309">
+              <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="8313084342506129310">
+                <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="8313084342506129311">
+                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="k146.8313084342506110034" resolveInfo="FlagPatternExpr" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8313084342506129278">
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="8313084342506129257" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8313084342506129284">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="mj1l.8860443239512128065" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </root>
