@@ -240,8 +240,8 @@
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="912616408885921639" />
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="912616408885921641">
           <node role="expr" roleId="c4fa.7254843406768833939" type="k146.FlagUnSet" typeId="k146.3457272138385220657" id="912616408885921646">
-            <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.BinaryNumberLiteral" typeId="mj1l.1054289341113496566" id="8313084342506110033">
-              <property name="value" nameId="mj1l.1054289341113496567" value="1010" />
+            <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425747533">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="3457272138385168040" resolveInfo="f1" />
             </node>
             <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="912616408885921643">
               <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="3457272138385168035" resolveInfo="someValue" />
@@ -337,18 +337,168 @@
             <property name="value" nameId="mj1l.8860443239512128104" value="0" />
           </node>
         </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="5469699306425579111">
+          <property name="name" nameId="tpck.1169194664001" value="f1" />
+          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt8tType" typeId="mj1l.8463282783691618461" id="5469699306425579112">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+          <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.BinaryNumberLiteral" typeId="mj1l.1054289341113496566" id="5469699306425579113">
+            <property name="value" nameId="mj1l.1054289341113496567" value="001" />
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="5469699306425579114">
+          <property name="name" nameId="tpck.1169194664001" value="f2" />
+          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt8tType" typeId="mj1l.8463282783691618461" id="5469699306425579115">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+          <node role="init" roleId="c4fa.4185783222026502647" type="mj1l.BinaryNumberLiteral" typeId="mj1l.1054289341113496566" id="5469699306425579116">
+            <property name="value" nameId="mj1l.1054289341113496567" value="010" />
+          </node>
+        </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="8313084342506379661" />
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="8313084342506220093">
-          <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8313084342506220094" />
-          <node role="condition" roleId="c4fa.6275792049641600984" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="8313084342506216778">
-            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="8313084342506379665">
-              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5469699306425579117">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="k146.FlagSet" typeId="k146.3457272138385189066" id="5469699306425579119">
+            <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579122">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="5469699306425579111" resolveInfo="f1" />
             </node>
-            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="8313084342506220077">
-              <property name="flagPattern" nameId="k146.8313084342506110035" value="001--100" />
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579118">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
             </node>
           </node>
         </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5469699306425579123">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="k146.FlagSet" typeId="k146.3457272138385189066" id="5469699306425579124">
+            <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579127">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="5469699306425579114" resolveInfo="f2" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579126">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425642073" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579129">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579129" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579143">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579146">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="--1" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579140">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579147">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579147" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579148">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579149">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="-1-" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579150">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579155">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579155" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579156">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579157">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="-11" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579158">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579162">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579162" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579163">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579164">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="0--" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579165">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425579166" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5469699306425579168">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="k146.FlagUnSet" typeId="k146.3457272138385220657" id="5469699306425579172">
+            <node role="right" roleId="mj1l.8860443239512128065" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579175">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="5469699306425579114" resolveInfo="f2" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579169">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425579159" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579177">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579177" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579178">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579179">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="--1" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579180">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579181">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579181" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="mj1l.NotExpression" typeId="mj1l.3830958861296781575" id="5469699306425579196">
+            <node role="expression" roleId="mj1l.7254843406768839760" type="mj1l.ParensExpression" typeId="mj1l.5763383285156533447" id="5469699306425579193">
+              <node role="expression" roleId="mj1l.7254843406768839760" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579182">
+                <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579183">
+                  <property name="flagPattern" nameId="k146.8313084342506110035" value="-1-" />
+                </node>
+                <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579184">
+                  <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579185">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579185" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="mj1l.NotExpression" typeId="mj1l.3830958861296781575" id="5469699306425642068">
+            <node role="expression" roleId="mj1l.7254843406768839760" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579186">
+              <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579187">
+                <property name="flagPattern" nameId="k146.8313084342506110035" value="-11" />
+              </node>
+              <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579188">
+                <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425579189">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425579189" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425579190">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425579191">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="0--" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425579192">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5469699306425642069">
+          <property name="contextNodeIdD" nameId="x27k.5114214484368231289" value="5469699306425642069" />
+          <node role="expr" roleId="yz9a.6275792049641587288" type="k146.FlagMatch" typeId="k146.8313084342506126840" id="5469699306425642070">
+            <node role="right" roleId="mj1l.8860443239512128065" type="k146.FlagPatternExpr" typeId="k146.8313084342506110034" id="5469699306425642071">
+              <property name="flagPattern" nameId="k146.8313084342506110035" value="-01" />
+            </node>
+            <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5469699306425642072">
+              <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8313084342506379662" resolveInfo="someValue" />
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425579176" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425579160" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5469699306425579161" />
       </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8313084342506379654">
@@ -595,6 +745,9 @@
             </node>
             <node role="tests" roleId="yz9a.5686538669182341016" type="yz9a.TestCaseRef" typeId="yz9a.5686538669182340985" id="3457272138385281817">
               <link role="testcase" roleId="yz9a.5686538669182340986" targetNodeId="3457272138385168032" resolveInfo="testFlags" />
+            </node>
+            <node role="tests" roleId="yz9a.5686538669182341016" type="yz9a.TestCaseRef" typeId="yz9a.5686538669182340985" id="5469699306425579110">
+              <link role="testcase" roleId="yz9a.5686538669182340986" targetNodeId="8313084342506379658" resolveInfo="testPatterns" />
             </node>
           </node>
         </node>
