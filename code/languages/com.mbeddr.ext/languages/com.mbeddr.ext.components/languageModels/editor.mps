@@ -1391,8 +1391,8 @@
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.4491876417845649020" />
                       </node>
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3457272138385408608">
-                      <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.3444913373458569211" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3444913373458905513">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eup9.3444913373458905225" resolveInfo="getPort" />
                     </node>
                   </node>
                 </node>
@@ -1530,8 +1530,8 @@
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.4491876417845649020" />
                       </node>
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3457272138385409342">
-                      <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.3444913373458569211" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3444913373458905555">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eup9.3444913373458905225" resolveInfo="getPort" />
                     </node>
                   </node>
                 </node>
@@ -1558,8 +1558,8 @@
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.4491876417845649020" />
                       </node>
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="172140116792690802">
-                      <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.3444913373458569211" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3444913373458905557">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eup9.3444913373458905225" resolveInfo="getPort" />
                     </node>
                   </node>
                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="172140116792690807" />
@@ -1598,8 +1598,8 @@
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.4491876417845649020" />
                       </node>
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="172140116792690834">
-                      <link role="link" roleId="tp25.1138056516764" targetNodeId="v7ag.3444913373458569211" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3444913373458905559">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eup9.3444913373458905225" resolveInfo="getPort" />
                     </node>
                   </node>
                 </node>
@@ -2971,7 +2971,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="3444913373458779070">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="v7ag.3444913373458569211" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="v7ag.3444913373458905510" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="3444913373458779071">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3444913373458779073">
             <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
