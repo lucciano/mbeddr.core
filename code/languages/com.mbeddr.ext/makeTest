@@ -102,6 +102,13 @@ cd CompWithDectab
 make test
 PROC_RET=$(($?+$PROC_RET))
 
+echo -------------------------------------
+echo multipleInstanceConfigs
+cd ../
+cd multipleInstanceConfigs
+make test
+PROC_RET=$(($?+$PROC_RET))
+
 cd ../../../../../../../
 cd test.ex.ext.statemachine/source_gen/statemachine_components
 
@@ -149,10 +156,6 @@ make clean all
 cd ../../../../../../../../../
 cd tests/test.ex.ext.exceptionhandling/source_gen/test/ex/ext/exceptionhandling/test/defaultimpl/
 make test
-
-
-PROC_RET=$(($?+$PROC_RET))
-
 
 
 
