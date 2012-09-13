@@ -109,6 +109,13 @@ cd multipleInstanceConfigs
 make test
 PROC_RET=$(($?+$PROC_RET))
 
+echo -------------------------------------
+echo compositeComponent
+cd ../
+cd compositeComponent
+make test
+PROC_RET=$(($?+$PROC_RET))
+
 cd ../../../../../../../
 cd test.ex.ext.statemachine/source_gen/statemachine_components
 
