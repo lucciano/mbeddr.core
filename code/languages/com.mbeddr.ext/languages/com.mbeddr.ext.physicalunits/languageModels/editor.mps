@@ -39,6 +39,10 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6870096341748575357">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ym4j.6870096341748575352" resolveInfo="EmptyUnitContainerContents" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2724891502436181743">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="generics" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ym4j.2724891502436181740" resolveInfo="GenericUnitDeclaration" />
+    </node>
   </roots>
   <root id="3801772042669047307">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="3801772042669047309">
@@ -240,6 +244,20 @@
       <property name="text" nameId="tpc2.1073389577007" value="" />
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="6870096341748575360">
         <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+    </node>
+  </root>
+  <root id="2724891502436181743">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2724891502436181745">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2724891502436181747" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2724891502436181749">
+        <property name="text" nameId="tpc2.1073389577007" value="#" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="2724891502436182269">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2724891502436181751">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
       </node>
     </node>
   </root>
