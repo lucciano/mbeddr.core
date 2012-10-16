@@ -225,6 +225,15 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="generics" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mj1l.4734824839940099794" resolveInfo="ComputedGenericType" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1221261914508438405">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="generics" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mj1l.1221261914508438403" resolveInfo="TypeVariable" />
+    </node>
+    <node type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="1221261914508438412">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="generics" />
+      <property name="name" nameId="tpck.1169194664001" value="IGenericsContainer_EditorComponent" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mj1l.1221261914508438400" resolveInfo="IGenericsContainer" />
+    </node>
   </roots>
   <root id="8860443239512128087">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2941277002447374678">
@@ -2492,6 +2501,39 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4734824839940099805" />
+    </node>
+  </root>
+  <root id="1221261914508438405">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1221261914508438407">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="1221261914508438408">
+        <property name="style" nameId="tpc2.1186403771423" value="ITALIC" />
+      </node>
+    </node>
+  </root>
+  <root id="1221261914508438412">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1221261914508438414">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1221261914508438417">
+        <property name="text" nameId="tpc2.1073389577007" value="[" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="1221261914508438428">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1221261914508511601">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1221261914508438419">
+        <property name="separatorText" nameId="tpc2.1140524450557" value="," />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="mj1l.1221261914508438409" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1221261914508438420" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1221261914508438424">
+        <property name="text" nameId="tpc2.1073389577007" value="]" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="1221261914508438429">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1221261914508438416" />
     </node>
   </root>
 </model>

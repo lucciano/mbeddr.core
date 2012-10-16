@@ -2,30 +2,6 @@
 <history>
   <StructureModification>
     <dependencies>
-      <model index="ym4j" modelUID="r:cf0df747-2506-460f-a33d-eb236a605ee8(com.mbeddr.ext.physicalunits.structure)" version="6" />
-    </dependencies>
-    <rename id="ym4j.8099136929591129785" type="CONCEPT" from="NamedUnitDeclaration" to="NamedDerivedUnitDeclaration" />
-  </StructureModification>
-  <StructureModification>
-    <dependencies>
-      <model index="ym4j" modelUID="r:cf0df747-2506-460f-a33d-eb236a605ee8(com.mbeddr.ext.physicalunits.structure)" version="7" />
-    </dependencies>
-    <move id="ym4j.1850134002004799552" to="ym4j.2078797996880543461" />
-  </StructureModification>
-  <StructureModification>
-    <dependencies>
-      <model index="ym4j" modelUID="r:cf0df747-2506-460f-a33d-eb236a605ee8(com.mbeddr.ext.physicalunits.structure)" version="8" />
-    </dependencies>
-    <rename id="ym4j.3801772042669047873" type="CHILD" from="descs" to="declarations" />
-  </StructureModification>
-  <StructureModification>
-    <dependencies>
-      <model index="ym4j" modelUID="r:cf0df747-2506-460f-a33d-eb236a605ee8(com.mbeddr.ext.physicalunits.structure)" version="9" />
-    </dependencies>
-    <rename id="ym4j.3801772042669047303" type="CONCEPT" from="SIBaseUnitDeclaration" to="ElementaryUnitDeclaration" />
-  </StructureModification>
-  <StructureModification>
-    <dependencies>
       <model index="3c6d" modelUID="r:d6d71b6a-f5ea-4b72-bd01-9d5b19792726(com.mbeddr.ext.physicalunits.c.structure)" version="2" />
       <model index="vg1v" modelUID="r:bfc144bb-c1cb-4758-b03b-639ef968eb7e(com.mbeddr.ext.physicalunits.c.editor)" version="1" />
       <model index="l98v" modelUID="r:07a7aaec-7406-438d-b0c1-0522f68b904c(com.mbeddr.ext.physicalunits.c.behavior)" version="1" />
