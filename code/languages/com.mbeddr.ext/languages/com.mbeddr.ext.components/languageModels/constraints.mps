@@ -96,8 +96,8 @@
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="v7ag.4491876417845474761" resolveInfo="Component" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="6591434695300703524">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs.ppc" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="v7ag.6591434695300703522" resolveInfo="PPCParamRef" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="v7ag.6591434695300703522" resolveInfo="OperationParamRef" />
     </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="6591434695300950451">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs.ppc" />

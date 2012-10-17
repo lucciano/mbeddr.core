@@ -234,6 +234,10 @@
       <property name="name" nameId="tpck.1169194664001" value="IGenericsContainer_EditorComponent" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mj1l.1221261914508438400" resolveInfo="IGenericsContainer" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5783174387611915259">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="generics" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="mj1l.5783174387611915257" resolveInfo="TypeVarRef" />
+    </node>
   </roots>
   <root id="8860443239512128087">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2941277002447374678">
@@ -2534,6 +2538,17 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1221261914508438416" />
+    </node>
+  </root>
+  <root id="5783174387611915259">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="5783174387611915261">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="mj1l.5783174387611915258" />
+      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="5783174387611915262">
+        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5783174387611915264">
+          <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+        </node>
+      </node>
     </node>
   </root>
 </model>

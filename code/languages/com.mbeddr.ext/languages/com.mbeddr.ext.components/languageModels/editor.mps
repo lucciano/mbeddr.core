@@ -150,8 +150,8 @@
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="v7ag.4643433264761566506" resolveInfo="OnInitTrigger" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6591434695300703570">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs.ppc" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="v7ag.6591434695300703522" resolveInfo="PPCParamRef" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="v7ag.6591434695300703522" resolveInfo="OperationParamRef" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6591434695300950448">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="intf.cs.ppc" />
